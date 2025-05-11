@@ -1,0 +1,6 @@
+.backstretch:hover {
+	opacity: 1;
+}
+.backstretch {
+	transition: all 0.5 linear;
+}

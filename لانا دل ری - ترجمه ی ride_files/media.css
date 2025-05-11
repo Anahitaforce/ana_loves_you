@@ -1,0 +1,424 @@
+@media only screen and (max-device-width:800px),only screen and (device-width:1024px) and (device-height:600px),only screen and (width:1280px) and (orientation:landscape),only screen and (device-width:800px),only screen and (max-width:767px) {
+	.flex-video {
+		padding-top:0
+	}
+}
+@media only screen and (max-width: 1024px)
+{
+.wrapper
+{
+    margin-top: 120px;
+}
+.single-page-title
+{
+    margin-left:-30px;
+	margin-right:-15px;
+}
+.single-page-title:before,.single-page-title:after 
+{
+    display:none;
+}
+.w {
+	background-position: 100px 35%;
+} 
+.i {
+	background-position: 100px 35%;
+}
+}
+@media only screen and (max-width: 870px)
+{
+figure {
+    margin-right: 7%;
+}
+}
+@media only screen and (max-width: 800px)
+{
+header h1
+{
+    font-size:50px;
+}
+#filters li
+{
+    font-size: 14px;
+}
+.page-title
+{
+    font-size:25px;
+    padding-top:5px;
+    margin-bottom:20px;
+}
+.single-page-title
+{
+    font-size:40px;
+}
+h1
+{
+    font-size:40px;
+}
+h2
+{
+    font-size:30px;
+}
+h3
+{
+    font-size:24px;
+}
+h4
+{
+    font-size:22px;
+}
+h5
+{
+    font-size:20px;
+}
+h6
+{
+    font-size:18px;
+}  
+.date
+{
+    font-size: 16px;
+    line-height: 40px;
+}
+.all-button
+{
+    font-size: 18px;
+}
+label
+{
+    padding: 5px;
+    margin-right: 5px;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="date"], textarea, .button, p, body
+{
+    font-size: 18px;
+}
+.social-icons li img
+{
+    width:34px;
+}
+.w {
+	background-position: 0px 35%;
+} 
+.i {
+	background-position: 0px 35%;
+}
+.lyrics-fa, .lyrics-en {
+	font-size:16.5px;
+}
+}
+@media only screen and (max-width:750px) 
+{
+.navigation li {
+    padding-right:10px;
+}
+.navhome,.navhome-after {
+    display: none !important;
+}
+}
+@media only screen and (max-width:640px) 
+{
+header h1
+{
+    font-size:40px;
+}
+.page-title
+{
+    font-size:21px;
+    padding-top: 11px;
+    margin-bottom:30px;
+}
+.single-page-title
+{
+    font-size:30px;
+}
+h1
+{
+    font-size:30px;
+}
+h2
+{
+    font-size:24px;
+}
+h3
+{
+    font-size:20px;
+}
+h4
+{
+    font-size:18px;
+}
+h5
+{
+    font-size:16px;
+}
+h6
+{
+    font-size:14px;
+}  
+.date
+{
+    font-size: 14px;
+    line-height: 34px;
+}
+.all-button
+{
+    font-size: 18px;
+}
+#menu,#gallery,#homepage {
+    position:absolute;
+}
+#music,#blog
+{
+    display: block;
+    left: 80px;
+}
+#gallery {
+    left:160px;
+}
+#close {
+    left: 160px;
+}
+#next, #prev
+{
+    top: 40%;
+    padding: 0px 7px 0px 15px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+#next
+{
+    background-image: url('../images/left-s.png');
+}
+#prev
+{
+    background-image: url('../images/right-s.png');
+}
+#next:hover
+{
+    background-image: url('../images/left2-s.png');
+}
+#prev:hover
+{
+    background-image: url('../images/right2-s.png');
+}
+.post-img
+{
+    margin-bottom:0px;
+}
+.page-title
+{
+    padding-right: 14%;
+}
+.w {
+	background-position: -180px 35%;
+} 
+.i {
+	background-position: -180px 35%;
+}
+.lyrics-fa, .lyrics-en {
+	font-size:16px;
+}
+figure {
+    width : 41.400% !important;
+}
+#hidebg {
+    font-size: 13px;
+}
+#fixtop{
+    font-size: 12px;
+}
+.wlf {
+    width:50px;
+    padding-top:3px;
+    right: 40%;
+}
+}
+@media only screen and (max-height:500px)
+{
+	#next, #prev
+{
+    top: 40%;
+    padding: 0px 7px 0px 15px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+#next
+{
+    background-image: url('../images/left-s.png');
+}
+#prev
+{
+    background-image: url('../images/right-s.png');
+}
+#next:hover
+{
+    background-image: url('../images/left2-s.png');
+}
+#prev:hover
+{
+    background-image: url('../images/right2-s.png');
+}
+}
+@media only screen and (max-width:550px)
+{
+.nav-fixate,.nav-fixate-after {
+    display: none !important;
+}
+}
+@media only screen and (max-width:500px)
+{
+#menu,#gallery,#homepage {
+    position:absolute;
+}
+.lyrics-fa, .lyrics-en {
+    font-size:14.4px;
+}
+}
+@media only screen and (max-width:480px)
+{
+#music
+{
+  display:none;
+}
+header
+{
+top:0;
+position:absolute;
+}
+#menu,#gallery {
+position:absolute;
+}
+#menu .info,#homepage .info{
+width:50%;
+}
+#blog .info,#music .info
+{
+	width:25%;
+}
+#blog,#music
+{
+	position:absolute;
+    display:none;
+}
+#blog
+{
+	right:50%;
+}
+#music
+{
+	right:75%;
+}
+#gallery {
+    left: 80px;
+}
+.navigation {
+    height: 90px;
+}
+.main
+{
+top:80px;
+}
+#curtain {
+    background-image: url(../images/bgg.jpg);
+    bottom: 1px;
+}
+.wrapper
+{
+margin-top:170px;	
+}
+#home
+{
+    overflow:auto !important;
+}
+.main
+{
+    position: relative;
+    margin-top:80px;
+}
+#arrows
+{
+    display:none;
+}
+.column
+{
+    width: 100%;
+}
+.desc
+{
+    height:100%;
+    position:relative;  
+    margin-top:-40px !important;      
+}
+.desc .page-title {
+    cursor: pointer;
+    padding-bottom: 20px;
+    margin: 4%;
+}
+.column {
+	cursor:default;
+}
+section
+{
+    display:block;
+}
+.page-title
+{
+    font-size:22px;
+    margin-bottom:15%;
+}
+.reveal-modal
+{
+    min-width: 0px;
+}
+
+}
+
+@media only screen and (max-width:400px)
+{
+#homepage {
+    left:0px;
+    position: absolute;
+}
+.credits {
+    padding-left: 70px;
+}
+#hidebg {
+    display: none;
+}
+
+#gallery {
+    left: 0;
+    top: 60px;
+    width : 80px;
+}
+.wrapper {
+    margin-top: 50px;
+}
+.w {
+    display: none;
+}
+.lyrics-fa, .lyrics-en {
+	font-size:14px;
+}
+.wlf{
+    width:50px;
+    padding-top:3px;
+    right: 5%;
+}
+#fixtop{
+    margin: 4%;
+    right: 20%;
+    font-size: 12px;
+    position: relative;
+}
+}
+
+@media only screen and (max-width:330px)
+{
+    .gall {
+        direction: inherit;
+    }
+}
